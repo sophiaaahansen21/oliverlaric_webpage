@@ -1,0 +1,322 @@
+@font-face {
+  font-family: 'Inknut Antiqua';
+  src: url('fonts/InknutAntiqua-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body.home {
+  background-color: #FFF8F8;
+  font-family: 'Inknut Antiqua', serif;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 60px 0;
+}
+
+body.home h1 {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+body.home .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+
+body.home .nav-links a {
+  font-family: 'times new roman', serif;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 26px;
+  border-radius: 2px;
+}
+
+body.home .lilac { background-color: #F4EBF8; 
+color: #5D0586;}
+body.home .blue { background-color: #D1D5E2; 
+color: #02005D;}
+body.home .peach { background-color: #F9DFDF; 
+color: #9D1B1B;}
+body.home .beige { background-color: #E2D8D1; 
+color: #9E5C00;}
+
+body.home .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 70px;
+}
+
+body.home .photo {
+  height: 300px;
+  width: auto;
+  object-fit: contain;
+}
+
+body.bio {
+  background-color: #F4EBF8; 
+  font-family: "Times New Roman", serif;
+  color: #000000;
+  font-size: 16px;
+  margin: 0;
+  padding: 100px 120px;
+  line-height: 1.8;
+  position: relative;
+}
+
+.back a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Times New Roman", serif;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.bio-text {
+  width: 80%;
+  text-align: justify;
+  color: #000000;
+  line-height: 1.8;
+  font-size: 16px;
+  font-family: "Times New Roman", serif;
+  margin-top: 0;
+}
+
+.images {
+  width: 25%; 
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+body.bio h1 {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 46px;
+  color: #5D0586; 
+  text-align: left;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+
+body.versions-page {
+    margin: 0;
+    padding: 60px 120px 80px 120px;
+    background-color: #D1D5E2; 
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #02005D;
+    position: relative;
+}
+
+body.versions-page .back > a {
+    color: #000000;
+    font-family: "times new roman", sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    text-decoration: none;
+  }
+
+body.versions-page h1 {
+    font-size: 36px;
+   font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+    font-weight: bold;
+    color: #02005D;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+body.versions-page .photo {
+    display: block;
+    margin: 60px auto 80px auto;
+    max-width: 460px;
+    height: auto;
+    background: white;
+}
+
+body.versions-page .versions {
+    max-width: 700px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    font-family: "times new roman", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+body.icon-page {
+  background-color: #F7E4DD;
+  font-family: 'Inknut Antiqua', serif;
+  color: #9D1B1B;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.content {
+  width: 55%;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Times New Roman", serif;
+}
+
+h1 {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 48px;
+  margin-top: 0;
+  color: #9D1B1B;
+}
+
+.icons {
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.image-column {
+  width: 300%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.image-column img {
+  width: 170px;
+  height: auto;
+}
+
+.image-column img:nth-child(odd) {
+  margin-right: 200px;
+}
+
+.image-column img:nth-child(even) {
+  margin-right: 0;
+}
+
+body.kopienkritik-page {
+  background-color: #E2D8D1;
+  font-family: 'Inknut Antiqua', serif;
+  color: #3b1a14;
+  margin: 0;
+  padding: 40px 80px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+body.kopienkritik-page .back {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+}
+.floating-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.floating-images img {
+  width: 90px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.floating-images img:nth-child(1),
+.floating-images img:nth-child(10) {
+  transform: translateY(80px);
+}
+
+.floating-images img:nth-child(2),
+.floating-images img:nth-child(9) {
+  transform: translateY(60px);
+}
+
+.floating-images img:nth-child(3),
+.floating-images img:nth-child(8) {
+  transform: translateY(40px);
+}
+
+.floating-images img:nth-child(4),
+.floating-images img:nth-child(7) {
+  transform: translateY(20px);
+}
+
+.floating-images img:nth-child(5),
+.floating-images img:nth-child(6) {
+  transform: translateY(0px);
+}
+
+
+body.kopienkritik-page h1 {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 56px;
+  margin: 100px 0 40px;
+  color: #a06a2f;
+  letter-spacing: 2px;
+}
+
+.kopienkritik-text {
+  font-family: "Times New Roman", serif;
+  color: #000000;
+  max-width: 850px;
+  margin: 0 auto 80px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.bottom-images {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.bottom-images img {
+  width: 360px;
+  height: auto;
+}
